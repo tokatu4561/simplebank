@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/tokatu4561/simple-bank/api"
-	db "github.com/tokatu4561/simple-bank/db/sqlc"
-	"github.com/tokatu4561/simple-bank/util"
+	"github.com/tokatu4561/simplebank/api"
+	db "github.com/tokatu4561/simplebank/db/sqlc"
+	"github.com/tokatu4561/simplebank/util"
 )
 
 func main() {
