@@ -1,0 +1,11 @@
+apiVersion: v1 
+kind: ConfigMap 
+metadata: 
+  name: aws-auth 
+  namespace: kube-system 
+data: 
+  mapUsers: | 
+    - userarn: arn:aws:iam::832439136995:user/simple-bank-deploy
+      username: github-ci
+      groups:
+        - system:masters
